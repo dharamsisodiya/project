@@ -8,6 +8,8 @@ from numpy import *
 
 I0 = 1
 
+# this allows us to pick the initial conditions. the limit here is -10 to 10 but this can be changed
+
 print('Enter a range between -10 and 10')
 
 lb = float(input('Enter your lower bound'))
